@@ -41,22 +41,23 @@
         height: 300px;
         width:100px;
         position: absolute;
-        top: 220px;
+        top: 150px;
         left: 360px;
         padding:10px;
         text-align:center;
-        font-family:cursive navy;
         font-size: 16pt;
 }
 
 #home:hover {
         background: navy;
         color: white;
+        cursor: pointer;
 }
 
 #home:active {
         background:lightgray;
         color: navy;
+        cursor: pointer;
 }
 
 #skills {
@@ -64,21 +65,68 @@
         height: 300px;
         width:100px;
         position: absolute;
-        top: 220px;
+        top: 150px;
         left: 560px;
         padding:10px;
-        text-align:center;
-        font-family:cursive navy;
-        font-size: 16pt;
-
 }
 
 #skills:hover {
         background: navy;
         color: white;
+        cursor: pointer;
 }
 
 #skills:active {
         background:lightgray;
         color: navy;
+        cursor: pointer;
+}
+.navbar {
+        font-family: serif;
+        color: navy;
+        font-size: 16pt;
+        text-align: center;
+        line-height: 2.5;
+}
+#contact {
+        background: rgb(229, 232, 235);
+        height: 300px;
+        width:100px;
+        position: absolute;
+        top: 150px;
+        left: 760px;
+        padding:10px;
+}
+
+#contact:hover {
+        background: navy;
+        color: white;
+        cursor: pointer;
+}
+
+#info:active {
+        background:lightgray;
+        color: navy;
+        cursor: pointer;
+}
+#work {
+        background: rgb(229, 232, 235);
+        height: 300px;
+        width:100px;
+        position: absolute;
+        top: 150px;
+        left: 930px;
+        padding:10px;
+}
+
+#work:hover {
+        background: navy;
+        color: white;
+        cursor: pointer;
+}
+
+#work:active {
+        background:lightgray;
+        color: navy;
+        cursor: pointer;
 }

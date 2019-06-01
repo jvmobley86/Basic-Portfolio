@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    color: navy;   
+    text-shadow: white 2px 2px;
+}
+
+h2 {
+    text-align: center;
+    color: navy;   
+    text-shadow: white 2px 2px;
+}
+#home {
+    background: rgb(229, 232, 235);
+    height: 30px;
+    width:100px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    padding:10px;
+    text-align:center;
+    font-size: 16pt;
+}
+
+#home:hover {
+    background: navy;
+    color: white;
+    cursor: pointer;
+}
+
+#home:active {
+    background:lightgray;
+    color: navy;
+    cursor: pointer;
+}
+
+.navbar {
+    font-family: serif;
+    color: navy;
+    font-size: 16pt;
+    text-align: center;
+    line-height: 2.5;
+}
+#skills {
+    background: rgb(229, 232, 235);
+    height: 30px;
+    width:50px;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    padding:10px;
+}
+
+#skills:hover {
+    background: navy;
+    color: white;
+    cursor: pointer;
+}
+
+#skills:active {
+    background:lightgray;
+    color: navy;
+    cursor: pointer;
+}
+#work {
+    background: rgb(229, 232, 235);
+    height: 30px;
+    width:50px;
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    padding:10px;
+}
+
+#work:hover {
+    background: navy;
+    color: white;
+    cursor: pointer;
+}
+
+#work:active {
+    background:lightgray;
+    color: navy;
+    cursor: pointer;
+}
+
+#icon {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    padding:10px;
+}
+#icon2 {
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    padding:10px;
+}
