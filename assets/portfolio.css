@@ -1,0 +1,84 @@
+#centerbox {
+        background: rgb(229, 232, 235);
+        border: solid navy 5px;
+        height: 400px;
+        position: relative;
+        width: 700px;
+        bottom: -200px;
+        right: -350px;
+        clear: both;
+}
+
+#basic{
+        font-family: serif;
+        text-align: center;
+        font-size: 25pt;
+        color: navy;
+        line-height: 100%;
+        left: 50%;
+        top: 50%;
+}
+
+#headshot{
+        height: 200px;
+        position: relative;
+        left:275px;
+        top: 50%;
+}
+
+#box {
+        background: rgb(229, 232, 235);
+        height: 40px;
+        position: absolute;
+        width: 70px;
+        bottom: -20px;
+        right: -35px;
+        padding: 10px;
+}
+
+#home {
+        background: rgb(229, 232, 235);
+        height: 300px;
+        width:100px;
+        position: absolute;
+        top: 220px;
+        left: 360px;
+        padding:10px;
+        text-align:center;
+        font-family:cursive navy;
+        font-size: 16pt;
+}
+
+#home:hover {
+        background: navy;
+        color: white;
+}
+
+#home:active {
+        background:lightgray;
+        color: navy;
+}
+
+#skills {
+        background: rgb(229, 232, 235);
+        height: 300px;
+        width:100px;
+        position: absolute;
+        top: 220px;
+        left: 560px;
+        padding:10px;
+        text-align:center;
+        font-family:cursive navy;
+        font-size: 16pt;
+
+}
+
+#skills:hover {
+        background: navy;
+        color: white;
+}
+
+#skills:active {
+        background:lightgray;
+        color: navy;
+}
