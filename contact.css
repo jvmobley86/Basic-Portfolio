@@ -2,12 +2,20 @@ h1 {
     text-align: center;
     color: navy;   
     text-shadow: white 2px 2px;
+    font-size: 24pt;
 }
 
 h2 {
     text-align: center;
     color: navy;   
     text-shadow: white 2px 2px;
+    font-size: 24pt;
+}
+h3 {
+    text-align: center;
+    color: white;   
+    text-shadow: gray 2px 2px;
+    font-size: 24pt;
 }
 #home {
     background: rgb(229, 232, 235);
@@ -85,13 +93,49 @@ h2 {
 
 #icon {
     position: absolute;
-    top: 200px;
-    left: 650px;
+    top: 70px;
+    left: 250px;
     padding:10px;
 }
 #icon2 {
     position: absolute;
-    top: 200px;
-    left: 700px;
+    top: 70px;
+    left: 950px;
     padding:10px;
+}
+#bio-image {
+    position: relative;
+    left:425px;
+    top: 40%;
+    border:  solid 20px navy ;
+}
+#photos {
+    border-block-color: lightgray 10px;
+    position: relative;
+    left:15px;
+    bottom: 50%;
+    border:  solid 20px navy ;
+}
+.container {
+    width: 1200px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    padding:10px;
+
+}
+.box {
+    background: navy;
+    border: lightgray 2px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    padding:10px;
+
+}
+#grad{
+    position: relative;
+    left:425px;
+    top: 40%;
+    border:  solid 20px navy ;
 }
