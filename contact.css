@@ -139,3 +139,22 @@ h3 {
     top: 40%;
     border:  solid 20px navy ;
 }
+#family{
+    position: relative;
+    left:125px;
+    top: 40%;
+    border:  solid 20px navy ;
+}
+#children{
+    position: relative;
+    left:225px;
+    top: 40%;
+    border:  solid 20px navy ;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
